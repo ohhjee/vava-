@@ -28,7 +28,7 @@
     
                         <div class="button mb-[2rem] left-[40px] md:ml-[4rem] 2xl:ml-[10rem]">
                             <router-link to="#" class="capitalize whitespace-nowrap md:px-6 md:py-2 px-2 py-1  2xl:p-[2rem] 2xl:text-[3rem] flex items-center bg-[#b91a16] hover:bg-white hover:text-black" id="clip">learn more
-                                <ArrowRightIcon class="w-10 ml-2 h-10" />
+                                <ArrowRightIcon class="w-5 ml-2 h-5 2xl:w-10 2xl:h-10" />
                             </router-link>
                         </div>
                     </div>
