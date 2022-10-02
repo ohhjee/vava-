@@ -370,6 +370,7 @@ import { onMounted } from "vue";
 import simpleParallax from 'simple-parallax-js';
 import aos from '../animate'
 
+
 onMounted(() => {
     aos.init()
 })
@@ -383,10 +384,16 @@ onMounted(() => {
 
 // })
 
+const images = new URL('../assets/image/vav/banner1.png', import.meta.url).href
+const image1 = new URL('../assets/image/vav/banner2.png', import.meta.url).href
+
+const image2 = new URL('../assets/image/vav/banner5.png', import.meta.url).href
+
+
 const image = [
     {
         id: 1,
-        url: "../../src/assets/image/vav/banner1.png",
+        url: images,
         text1: 'Utmost comfort in well <br> secured environment...',
         description1: 'You can not but fall in lov with our exquisite and grandeur homes built in highly <br> sought-after environment and perfectly priced' as string
     },
@@ -394,30 +401,38 @@ const image = [
         id: 2,
         text2: 'your <br> dream house <br> awaits you',
         description: 'Alluring and move-in-already homes built <br> by the finest developers at decent places <br> and a disruptive payment plan up to 30 <br> months.',
-        url: "../../src/assets/image/vav/banner2.png",
+        url: image1,
     },
     {
         id: 3,
-        url: "../../src/assets/image/vav/banner5.png",
+        url: image2,
         text3: 'Exquisite Interior &amp; <br> State of the art Facilities',
         description3: 'Welcome to VAVA Projects. Explore our residential apartments, equipped with special<br> amenities for your utmost comfort and security;  Automated Gate, Panoramic Elevators,<br> Unlimited Fibre Internet, Fitness &amp; Beauty Centers and much more.'
     }
 ]
+
+const car1 = new URL('../assets/image/vav/via1.png', import.meta.url).href
+const car2 = new URL('../assets/image/vav/via2.png', import.meta.url).href
+const car3 = new URL('../assets/image/vav/via3.png', import.meta.url).href
+const car4 = new URL('../assets/image/vav/via4.png', import.meta.url).href
+
+
+
 const carousels = [{
         id: 1,
-        url: '../../src/assets/image/vav/via1.png'
+        url: car1
     },
     {
         id: 2,
-        url: '../../src/assets/image/vav/via2.png'
+        url: car2
     },
     {
         id: 3,
-        url: '../../src/assets/image/vav/via3.png'
+        url: car3
     },
     {
         id: 4,
-        url: '../../src/assets/image/vav/via4.png'
+        url: car4
     },
 ]
 

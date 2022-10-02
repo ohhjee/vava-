@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="">
-            <div class="h-[10vh] flex items-center justify-between lg:justify-center lg:items-stretch fam">
+            <div class="h-[15vh] flex items-center justify-between lg:justify-center lg:items-stretch fam">
                 <div class="img w-3/12 flex items-center justify-center">
                     <div class="flex justify-center items-center">
                         <img src="../assets/image/logo.png" alt="" />
