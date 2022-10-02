@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="">
-            <div class="h-[15vh] flex items-center justify-between lg:justify-center lg:items-stretch fam">
+            <div class="h-[10vh] flex items-center justify-between lg:justify-center lg:items-stretch fam">
                 <div class="img w-3/12 flex items-center justify-center">
                     <div class="flex justify-center items-center">
                         <img src="../assets/image/logo.png" alt="" />
@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="block lg:hidden mx-4 w-[6%] sm:w-[3%]">
-                    <div class="hamburger space-y-1" @click="nav" id="ham">
+                    <div class="hamburger space-y-1 cursor-pointer" @click="nav" id="ham">
                         <div class="w-full  border-[#b91a16] border-[1px]"></div>
                         <div class="w-full border-[#b91a16] border-[1px]"></div>
                         <div class="w-full   border-[#b91a16] border-[1px]"></div>

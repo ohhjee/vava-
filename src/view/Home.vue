@@ -3,7 +3,7 @@
         <Nav/>
         <Carousel :autoplay="5000" :wrap-around="true" :items-to-show="1" :mouse-drag="false" class="w-full">
             <slide v-for="(slide,index) in image" :key="slide.id" class="relative w-full">
-                <img :src="getPaths(slide.url)" class="w-full h-[100vh]" />
+                <img :src="getPaths(slide.url)" class="md:h-[100vh] h-[60vh] " />
                 <div class=" container flex">
                     <div class="absolute z-10 bottom-0  flex flex-col md:flex-row mb-[52px] text-left items-center w-full px-[20px] lg:px-0 lg:left-[54px] text-white">
                         <div class="animate__animated animate__fadeInLeft animate_slower">
@@ -154,7 +154,7 @@
             </div>
         </div>
         <div id="bg-img">
-            <div id="img" class="h-[260vh] md:h-[150vh] lg:h-[120vh]">
+            <div id="img" class="h-[200vh] md:h-[150vh] lg:h-[120vh]">
                 <!-- <img class="h-full" src="../assets/image/vav/vava-projects-property-amenities.png" id="img1" alt=""> -->
             </div>
 <div class="container py-2 mx-auto w-10/12 left-0 top-0 bottom-0 right-0 absolute" id="content">
@@ -241,7 +241,7 @@
         </div>
 
         <div id="imgs">
-            <div class="image h-[260vh] md:h-[150vh] lg:h-[100vh]">
+            <div class="image h-[200vh] md:h-[150vh] lg:h-[100vh]">
             </div>
             <div class="container py-2 mx-auto w-10/12 left-0 top-0 bottom-0 right-0 absolute">
                 <div class="text-center my-10" data-aos="fade-down" data-aos-duration="1500">
