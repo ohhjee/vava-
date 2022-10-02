@@ -4,7 +4,7 @@
             <div class="h-[10vh] 2xl:h-[15vh] flex items-center justify-between lg:justify-center lg:items-stretch fam">
                 <div class="img w-3/12 2xl:6/12 flex items-center justify-center">
                     <div class="flex justify-center items-center">
-                        <img src="../assets/image/logo.png" alt="" />
+                        <img src="../assets/image/logo.png" class="ml-4 md:ml-0" alt="" />
                     </div>
                 </div>
                 <div id="clip" class=" bg-[#b91a16] w-full lg:flex hidden items-center">
