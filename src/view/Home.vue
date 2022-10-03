@@ -147,23 +147,23 @@
                 </div>
             </div>
         </div>
-        <div id="bg-img">
-            <div  class="h-[165vh] w-full md:h-[150vh] lg:h-[100vh] 2xl:h-[100vh] absolute">
-                <img class="h-full w-full " src="../assets/image/vav/vava-projects-property-amenities.png" id="img1" alt="">
+        <div id="bg-img"  class="relative min-h-screen">
+            <div  class="h-full absolute w-full">
+                <img class="h-full w-full object-cover object-left-bottom sm:object-cover sm:object-center " src="../assets/image/vav/vava-projects-property-amenities.png" id="img1" alt="">
             </div>
-<div class="container py-2 mx-auto w-10/12 h-[165vh] md:h-[50vh] lg:h-[100vh] 2xl:h-[100vh] relative z-10 flex items-center justify-center flex-col" id="content ">
-    <div class="text-center mt-[3rem]" data-aos="fade-down" data-aos-duration="5000">
-        <h1 class=" text-[30px] md:text-[40px] text-white 2xl:text-[5rem] relative" id="fonts">Amenities to Expect</h1>
-        <p class="text-[14px] leading-[24px] 2xl:text-[1.5rem] xl:leading-[35px] text-white my-[1rem] relative" id="popins_san"> 
+<div class="container py-10 mx-auto w-10/12 relative z-10 flex items-center justify-center flex-col" id="content ">
+    <div class="text-center mb-[3rem]" data-aos="fade-down" data-aos-duration="5000">
+        <h1 class=" text-[30px] md:text-[40px] text-white 2xl:text-[5rem]" id="fonts">Amenities to Expect</h1>
+        <p class="text-[14px] leading-[24px] 2xl:text-[1.5rem] xl:leading-[35px] text-white my-[1rem] " id="popins_san"> 
             All our projects are equipped with accessories that make a house a <br> home that meets all luxury standards
         </p>
         <div class="flex items center justify-center mt-3 xl:mb-[3rem]">
             <div class="bg-[#b91a16] h-[7px] w-[10%]" id="clip"></div>
         </div>
     </div>
-    <div class="my-[3rem] space-y-[4rem] lg:mb-[4rem] h-[100vh] w-full">
+    <div class="space-y-[1rem] lg:mb-[4rem] w-full">
         <div class="flex flex-col md:flex-row items-center justify-between">
-           <div data-aos="fade-down" class=" flex flex-col items-center justify-center" data-aos-duration="5000">
+           <div data-aos="fade-down" class=" flex flex-col items-center justify-center" data-aos-duration="1800">
             <router-link to="#">
                 <img src="../assets/image/vav/vava-projects-pool-icon.png" class="2xl:w-[150px] flex items-center w-[5rem] h-[5rem] justify-center 2xl:h-[150px]" alt="">
             </router-link>
@@ -230,16 +230,17 @@
              </p>
             </div>
          </div>
+         
     </div>
 </div>
         </div>
 
-        <div id="imgs">
-            <div class="image h-[200vh] md:h-[150vh] lg:h-[80vh] 2xl:h-[130vh]">
+        <div id="imgs" class="relative min-h-screen">
+            <div class="image absolute h-full w-full">
                 <img src="../assets/image/vav/vava-projects-strength-bg.png" class="h-full w-full" alt="">
             </div>
-            <div class="container py-2 mx-auto w-10/12 left-0 top-0 2xl:h-[100vh] bottom-0 right-0 absolute">
-                <div class="text-center my-10" data-aos="fade-down" data-aos-duration="1500">
+            <div class="container py-10 mx-auto w-10/12 left-0 top-0  bottom-0 right-0 relative">
+                <div class="text-center mb-10" data-aos="fade-down" data-aos-duration="1500">
                     <h1 class="text-[40px] 2xl:text-[5rem] text-white" id="fonts">Our Strengths</h1>
                     <p class="text-[14px] 2xl:text-[1.5rem] text-white" id="popins_san"> 
                         For a minute, let’s take you through the core pillars on which our luxurious and <br> affordable homes are built on.
@@ -249,7 +250,7 @@
                     </div>
                 </div>
                 <div class="grid md:grid-cols-2  lg:grid-cols-5 w-full">
-                    <div class="md:mx-2 space-y-4">
+                    <div class="md:mx-2 space-y-4" data-aos="fade-down" data-aos-duration="2500">
                         <div class="text-center">
                             <div class="img flex items-center justify-center">
                                 <img src="../assets/image/vav/vava-projects-integrity-icon.png" class="2xl:w-[150px] 2xl:h-[150px]" alt="">
@@ -264,7 +265,7 @@
                             As a team, we believe that integrity is absolutely fundamental to success in real estate. We have showcased this in all our building policies, knowing fully well that honesty and transparency are essential. No compromise!
                         </div>
                     </div>
-                    <div class="md:mx-2 space-y-4">
+                    <div class="md:mx-2 space-y-4" data-aos="fade-down" data-aos-duration="2500">
                         <div class="text-center">
                             <div class="img flex items-center justify-center">
                                 <img src="../assets/image/vav/vava-projects-innovation-icon.png" class="2xl:w-[150px] 2xl:h-[150px]" alt="">
@@ -279,7 +280,7 @@
                             Beyond the traditional approach, we are big on developing new insights and approaches to tackling challenges through creative thinking and deploying state-of-the-art facilities to all our homes. It’s just a way of going the extra mile for your comfort.
                         </div>
                     </div>
-                    <div class="md:mx-2 space-y-4">
+                    <div class="md:mx-2 space-y-4" data-aos="fade-down" data-aos-duration="2500">
                         <div class="text-center">
                             <div class="img flex items-center justify-center">
                                 <img src="../assets/image/vav/vava-projects-quality-icon.png" class="2xl:w-[150px] 2xl:h-[150px]" alt="">
@@ -294,7 +295,7 @@
                             For once, you can rest assured of the quality of homes been built. Before setting out, we resolved to beat the status quo and provide the best: nothing but the best.
                         </div>
                     </div>
-                    <div class="md:mx-2 space-y-4">
+                    <div class="md:mx-2 space-y-4" data-aos="fade-down" data-aos-duration="2500">
                         <div class="text-center">
                             <div class="img flex items-center justify-center">
                                 <img src="../assets/image/vav/vava-projects-customer-icon.png" class="2xl:w-[150px] 2xl:h-[150px]" alt="">
@@ -309,7 +310,7 @@
                             We are big on offering immense value to our customers. While we advise our customers to have an expectation, we at Vava projects are addicted to exceeding our customer’s expectations, and we are not stopping anytime soon.
                         </div>
                     </div>
-                    <div class="md:mx-2 space-y-4">
+                    <div class="md:mx-2 space-y-4 place-content-center" data-aos="fade-down" data-aos-duration="2500">
                         <div class="text-center">
                             <div class="img flex items-center justify-center">
                                 <img src="../assets/image/vav/vava-projects-customer-icon.png" class="" alt="">
@@ -334,17 +335,23 @@
 
 
     <footer class="bg-black relative bottom-[0rem]" id="">
-<div class="container mx-auto">
-    <div class="flex flex-col lg:flex-row items-center space-y-4 lg:space-y-0 space-x-5">
+<div class="lg:container mx-auto">
+    <div class="flex flex-col lg:flex-row items-center space-y-10 lg:space-y-0 lg:space-y-0 lg:space-x-5">
         <div>
             <img src="../assets/image/vav/foot-logo.png" class="mt-3 lg:mt-0 2xl:w-full 2xl:h-full" alt="">
         </div>
-        <p class="text-[#868681] text-[12px] 2xl:text-[1.5rem]">
+        <p class="text-[#868681] text-[12px] 2xl:text-[1.5rem] px-2 lg:px-0">
             Copyright ©2022, VAVA Projects Ltd. All Rights Reserved. Website Design by <a href="#"> DientWeb</a> 
         </p>
-        <div class="bg-[#b91a16] w-full justify-center lg:w-[27%] h-[10vh] flex space-x-2 items-center " id="clips">
+        <div class="bg-[#b91a16] w-full justify-center lg:w-[27%] h-[10vh] hidden lg:flex space-x-2 items-center " id="clips">
             <img src="../assets/image/vav/phone-icon.png" class="ml-[4rem] 2xl:w-[60px] 2xl:text-[60px]" alt="">
             <div class="text-white text-[18px] mr-2 2xl:text-[1.5rem]">
+                +234(0)9130000304
+            </div>
+        </div>
+        <div class="bg-[#b91a16] w-full justify-center h-[10vh] lg:hidden flex  items-center " id="">
+            <img src="../assets/image/vav/phone-icon.png" class=" 2xl:w-[60px] 2xl:text-[60px]" alt="">
+            <div class="text-white text-[18px] ml-2 2xl:text-[1.5rem]">
                 +234(0)9130000304
             </div>
         </div>
@@ -440,7 +447,7 @@ function getPaths(imagePath) {
 <style lang="scss">
 #bg-img {
     position: relative;
-    img {
+    .img {
         position: relative;
         background-attachment: fixed;
         background-repeat: no-repeat;
