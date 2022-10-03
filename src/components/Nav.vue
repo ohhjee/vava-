@@ -25,9 +25,9 @@
                 </div>
                 <div class="block lg:hidden mx-4 w-[6%] sm:w-[3%]">
                     <div class="hamburger space-y-1 cursor-pointer" @click="nav" id="ham">
-                        <div class="w-full  border-[#b91a16] border-[1px]"></div>
-                        <div class="w-full border-[#b91a16] border-[1px]"></div>
-                        <div class="w-full   border-[#b91a16] border-[1px]"></div>
+                        <div class="w-full bg-[#b91a16] border-[#b91a16] border-[1px]"></div>
+                        <div class="w-full border-[#b91a16] bg-[#b91a16] border-[1px]"></div>
+                        <div class="w-full   border-[#b91a16] border-[1px] bg-[#b91a16]"></div>
     
                     </div>
                 </div>
